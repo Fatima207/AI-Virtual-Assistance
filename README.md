@@ -44,6 +44,8 @@ https://www.google.com/search?q=what is javascript
 * Web Speech API (SpeechRecognition + SpeechSynthesis)
 * Google Search Integration
 
+view Project
+https://ai-virtual-assistant-shifra.netlify.app/
 
 🎯 How to Use
 
