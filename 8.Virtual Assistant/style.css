@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+body {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+#logo {
+  width: 20vw;
+}
+
+h1 {
+  color: white;
+  font-family: "Protest Guerrilla", sans-serif;
+    margin-top: -60px;
+}
+
+#name {
+  color: rgb(212, 43, 122);
+  font-size: 50px;
+}
+#va {
+  color: rgb(43, 206, 212);
+  font-size: 45px;
+}
+#voice {
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+
+#btn {
+  width: 30%;
+  background: linear-gradient(to right, rgb(137, 194, 222), blue);
+  padding: 10px;
+  display: flex;
+  align-items: center; /* centers text vertically */
+  justify-content: center; /* optional: center left-right */
+  gap: 3px; /* space between mic icon and text */
+  font-size: 20px;
+  border-radius: 20px;
+  color: white;
+  box-shadow:2px 2px 10px rgb(137, 194, 222),2px 2px 10px rgb(201, 41, 116);
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#btn:hover{
+      box-shadow:2px 2px 20px rgb(137, 194, 222),2px 2px 20px rgb(201, 41, 116);
+      letter-spacing: 2px;
+
+}
+
+#btn img {
+  width: 20px;
+  height: auto;
+  margin-right: 8px;
+}
